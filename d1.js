@@ -1,6 +1,6 @@
 // declaração de variáveis
-let nickname = "lhiu"
-let xp = 9400
+let nomeHeroi = "lhiu"
+let xp = 100000000000
 let nivel
 
 // verificando o nível com base no xp
@@ -14,4 +14,8 @@ if (xp > 9000 && xp <= 10000){nivel = "Imortal"}
 if (xp > 10000){nivel = "Radiante"}
 
 // saída
-console.log("O herói de nome ", nickname, " está no nível de ", nivel)
+if (xp <= 8000){
+    console.log ("O herói de nome", nomeHeroi, "está no nível de", nivel + ".")
+} else {
+    console.log ("O herói de nome", nomeHeroi, "está no nível", nivel + ".")
+}
